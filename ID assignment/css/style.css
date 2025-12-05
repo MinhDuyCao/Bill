@@ -1,0 +1,59 @@
+body{
+  overflow-x: hidden;
+  position: absolute;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  position: relative;
+  background-color: black;
+  border-bottom: 1px solid #ccc;
+}
+#menu-icon {
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#logo {
+  width: 50%;
+  color: #fff;
+  width: 100px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1em;
+  align-self: left;
+}
+#logo img {
+  width: 100px;
+}
+#blog-name h1 {
+  width: 100%;
+  margin: 0;
+  font-size: 2em;
+  color: #333;
+}
+main{
+    position: relative;
+    overflow-x: hidden;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+}   
+#heading{
+    display: flex;
+    justify-content: center;
+}
+footer {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+}
