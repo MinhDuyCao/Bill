@@ -9,6 +9,7 @@ header {
   position: relative;
   background-color: black;
   border-bottom: 1px solid #ccc;
+  z-index: 100;
 }
 #menu-icon {
   height: 75px;
@@ -31,7 +32,6 @@ header {
   width: 100px;
 }
 #blog-name h1 {
-  width: 50%;
   margin: 0;
   font-size: 2em;
   color: #333;
